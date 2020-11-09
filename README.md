@@ -8,32 +8,32 @@ This project is to build and evaluate different models from imbalanced-learn and
 
 Different models were evaluated to compare their performance for unbalanced classes dataset. The balanced accuracy, confustion matris and classification report was calculated for each of the models and the results are shown below.
 
-- RandomOverSampler
+- **RandomOverSampler**
 The balanced accuracy score was 0.65. Precision for high_risk was 0.01 and low_risk was 1.0. Sensitivity was 0.69 and 0.61 for high_risk and low_risk respectively.
 
 ![ros](https://github.com/ssathyanath/Credit_Risk_Analysis/blob/main/Images/Random_Oversampling.PNG)
 
-- SMOTE
+- **SMOTE**
 The balanced accuracy score was 0.66. Precision for high_risk was 0.01 and low_risk was 1.0. Sensitivity was 0.67 and 0.42 for high_risk and low_risk respectively.
 
 ![SMOTE](https://github.com/ssathyanath/Credit_Risk_Analysis/blob/main/Images/SMOTE.PNG)
 
-- ClusterCentroids
+- **ClusterCentroids**
 The balanced accuracy score was 0.54. Precision for high_risk was 0.01 and low_risk was 1.0. Sensitivity was 0.67 and 0.61 for high_risk and low_risk respectively.
 
 ![CC](https://github.com/ssathyanath/Credit_Risk_Analysis/blob/main/Images/Undersampling.PNG)
 
-- SMOTEENN
+- **SMOTEENN**
 The balanced accuracy score was 0.64. Precision for high_risk was 0.01 and low_risk was 1.0. Sensitivity was 0.72 and 0.57 for high_risk and low_risk respectively.
 
 ![SMOTEENN](https://github.com/ssathyanath/Credit_Risk_Analysis/blob/main/Images/Combined.PNG)
 
-- BalancedRandomForest Classifier
+- **BalancedRandomForest Classifier**
 The balanced accuracy score was 0.79. Precision for high_risk was 0.03 and low_risk was 1.0. Sensitivity was 0.70 and 0.87 for high_risk and low_risk respectively.
 
 ![BCRF](https://github.com/ssathyanath/Credit_Risk_Analysis/blob/main/Images/BalancedRF.PNG)
 
-- EasyEnsemble Classifier
+- **EasyEnsemble Classifier**
 The balanced accuracy score was 0.93. Precision for high_risk was 0.09 and low_risk was 1.0. Sensitivity was 0.92 and 0.94 for high_risk and low_risk respectively.
 
 ![EE](https://github.com/ssathyanath/Credit_Risk_Analysis/blob/main/Images/EEC.PNG)
